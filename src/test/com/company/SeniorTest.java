@@ -3,8 +3,6 @@ package test.com.company;
 import com.company.Senior;
 import org.junit.Test;
 
-import java.util.Arrays;
-
 import static org.junit.Assert.*;
 
 public class SeniorTest {
@@ -16,11 +14,11 @@ public class SeniorTest {
         assertTrue(senior.isArraySorted(new int[]{1, 2, 3, 4, 5}));
         assertTrue(senior.isArraySorted(new int[]{0, 1, 2, 3, 3, 3, 4, 5}));
         assertTrue(senior.isArraySorted(new int[]{7, 3, 2, 1, 1, 1}));
-        assertTrue(senior.isArraySorted(new int[]{5,5,5}));
-        assertTrue(senior.isArraySorted(new int[]{3,3,1}));
+        assertTrue(senior.isArraySorted(new int[]{5, 5, 5}));
+        assertTrue(senior.isArraySorted(new int[]{3, 3, 1}));
 
-        assertFalse(senior.isArraySorted(new int[]{3,1,3}));
-        assertFalse(senior.isArraySorted(new int[]{1,2,1}));
+        assertFalse(senior.isArraySorted(new int[]{3, 1, 3}));
+        assertFalse(senior.isArraySorted(new int[]{1, 2, 1}));
     }
 
     /**

@@ -1,4 +1,4 @@
 package com.company.classes;
 
-public class Guanine  extends DNAClass {
+public class Guanine extends DNAClass {
 }

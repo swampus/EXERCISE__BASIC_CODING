@@ -30,7 +30,7 @@ public class ObjectForConfiguration {
         this.thirdField = thirdField;
     }
 
-    public void secretActionMethod(int param){
+    public void secretActionMethod(int param) {
         secretField = param;
     }
 

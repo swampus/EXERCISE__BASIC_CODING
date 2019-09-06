@@ -1,6 +1,7 @@
 package test.com.company;
 
 import com.company.Developer;
+import com.company.classes.ClassWithField;
 import com.company.classes.ObjectForConfiguration;
 import org.junit.Test;
 
@@ -44,5 +45,9 @@ public class DeveloperTest {
 
     @Test
     public void getClassWithBiggerValue() {
+        ClassWithField classWithField1 = new ClassWithField(1);
+        ClassWithField classWithField2 = new ClassWithField(2);
+        ClassWithField classWithFieldResult = developer.getClassWithBiggerValue(classWithField1, classWithField2);
+        assertEquals(Integer.valueOf(2), classWithFieldResult.getValueInClass());
     }
 }

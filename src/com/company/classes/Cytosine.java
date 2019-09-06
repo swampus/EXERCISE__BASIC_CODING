@@ -1,4 +1,4 @@
 package com.company.classes;
 
-public class Cytosine  extends DNAClass {
+public class Cytosine extends DNAClass {
 }

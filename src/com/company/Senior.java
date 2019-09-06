@@ -3,7 +3,7 @@ package com.company;
 public class Senior {
 
     //Array is given with numbers need to understand is it sorted or not ?
-    public Boolean isArraySorted(int[] array){
+    public Boolean isArraySorted(int[] array) {
         return null;
     }
 
@@ -13,7 +13,7 @@ public class Senior {
      * Given: aaadcc  | Result: a
      * Given: ttw     | Result: t;
      */
-    public String getMostCommonCharInString(String string){
+    public String getMostCommonCharInString(String string) {
         return null;
     }
 

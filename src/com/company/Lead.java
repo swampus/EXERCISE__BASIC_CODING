@@ -1,16 +1,15 @@
 package com.company;
 
-import com.company.classes.Adenosine;
 import com.company.classes.DNAClass;
 
 public class Lead {
     /**
-     *  There are elements in array that is provided in param,
-     *  need to replace all elements in that array that are equals to valueToReplace with value: valueForReplace
-     *  Given: { "1","2","3"}, "2", "new value instead of 2"
-     *  Result: { "1, "new value instead of 2", "3"}
+     * There are elements in array that is provided in param,
+     * need to replace all elements in that array that are equals to valueToReplace with value: valueForReplace
+     * Given: { "1","2","3"}, "2", "new value instead of 2"
+     * Result: { "1, "new value instead of 2", "3"}
      */
-    public String[] replaceInArrayEachGivenElementWith(String[] arrayForModification, String valueToReplace, String valueForReplace){
+    public String[] replaceInArrayEachGivenElementWith(String[] arrayForModification, String valueToReplace, String valueForReplace) {
         return null;
     }
 
@@ -22,7 +21,7 @@ public class Lead {
      * GIVEN: 5 RESULT: 2
      * GIVEN: 6 RESULT: 2
      */
-    public int findClosedNaturalRoundDownToSQRTof(int sqrt){
+    public int findClosedNaturalRoundDownToSQRTof(int sqrt) {
         return 0;
     }
 
@@ -30,22 +29,22 @@ public class Lead {
      * Create TWO Demensional Array numberXnumber (google) and fill it with number provided
      * Given 3 Result: {3,3,3}, {3,3,3}, {3,3,3}
      * Given 2 Result: {2,2}, {2,2}
-     *
+     * <p>
      * 3 3 3
      * 3 3 3
      * 3 3 3
-     *
+     * <p>
      * 2 2
      * 2 2
      */
-    public int[][] createTwoDimensionalArrayAndFillItWithNumberProvided(int number){
-      return null;
+    public int[][] createTwoDimensionalArrayAndFillItWithNumberProvided(int number) {
+        return null;
     }
 
 
     //given number. Return array that have first N fibbonachi numbers
     // https://en.wikipedia.org/wiki/Fibonacci_number
-    public int[] getNFirstFibonacciNumbersInArray(int n){
+    public int[] getNFirstFibonacciNumbersInArray(int n) {
         return null;
     }
 
@@ -57,10 +56,9 @@ public class Lead {
      * G = Guanine
      * M = Methyladenine
      */
-    public DNAClass switchBecauseNoHashMap(String key){
+    public DNAClass switchBecauseNoHashMap(String key) {
         return null;
     }
-
 
 
 }

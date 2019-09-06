@@ -1,4 +1,4 @@
 package com.company.classes;
 
-public class Methyladenine  extends DNAClass {
+public class Methyladenine extends DNAClass {
 }
