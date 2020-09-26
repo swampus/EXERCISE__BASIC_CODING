@@ -1,6 +1,6 @@
-package test.com.company;
+package com.company.task;
 
-import com.company.Developer;
+import com.company.tasks.Developer;
 import com.company.classes.ClassWithField;
 import com.company.classes.ObjectForConfiguration;
 import org.junit.Test;

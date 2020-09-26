@@ -1,4 +1,4 @@
-package com.company;
+package com.company.tasks;
 
 import com.company.classes.DNAClass;
 

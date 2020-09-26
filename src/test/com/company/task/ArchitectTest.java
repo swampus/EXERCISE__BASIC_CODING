@@ -1,6 +1,6 @@
-package test.com.company;
+package com.company.task;
 
-import com.company.Architect;
+import com.company.tasks.Architect;
 import org.junit.Test;
 
 import java.util.Arrays;

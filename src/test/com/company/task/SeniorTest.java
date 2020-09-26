@@ -1,6 +1,6 @@
-package test.com.company;
+package com.company.task;
 
-import com.company.Senior;
+import com.company.tasks.Senior;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

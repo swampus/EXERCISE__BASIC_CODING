@@ -1,6 +1,6 @@
-package test.com.company;
+package com.company.task;
 
-import com.company.Trainee;
+import com.company.tasks.Trainee;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -37,10 +37,10 @@ public class TraineeTest {
 
     @Test
     public void sumOfTwoNumber() {
-        assertEquals(5, trainee.getMaxNumber(2, 3));
-        assertEquals(0, trainee.getMaxNumber(-2, 2));
-        assertEquals(100, trainee.getMaxNumber(25, 75));
-        assertEquals(-4, trainee.getMaxNumber(-1, -3));
+        assertEquals(5, trainee.sumOfTwoNumber(2, 3));
+        assertEquals(0, trainee.sumOfTwoNumber(-2, 2));
+        assertEquals(100, trainee.sumOfTwoNumber(25, 75));
+        assertEquals(-4, trainee.sumOfTwoNumber(-1, -3));
     }
 
 }

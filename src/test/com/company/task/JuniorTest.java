@@ -1,6 +1,6 @@
-package test.com.company;
+package com.company.task;
 
-import com.company.Junior;
+import com.company.tasks.Junior;
 import com.company.classes.OurTestObjectWithTwoSetFields;
 
 import static org.junit.Assert.*;

@@ -1,6 +1,6 @@
-package test.com.company;
+package com.company.task;
 
-import com.company.Lead;
+import com.company.tasks.Lead;
 import com.company.classes.Adenosine;
 import com.company.classes.Cytosine;
 import com.company.classes.Guanine;
