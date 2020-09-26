@@ -1,0 +1,16 @@
+1) What is primitive ? Why do that exists in java ?
+2) What is String ?
+3) What is difference between [ a = new String("abc") ] and [ a = "abc" ]
+4) What is null ?
+5) How we can create new instance ? Can we create instance of int ?
+6) How array works if we add element at the middle of array ?
+7) What is float ?
+8) What is public void main(String args[]) ?
+9) What is import ? For example import java.utils.String ?
+10) What types of cycle do you know ?
+11) What is variable ? What is field ?
+12) What is method ? What is function ?
+13) What is difference between System.out.println(..) and System.out.print() ?
+14) what is switch ? Can it be replaced with if else ?
+15) Can we say, that String array of chars ?
+16) Can we use compare == with String ? Float ? int ? double ?
